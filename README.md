@@ -58,17 +58,3 @@ README.md
 ## ⭐ If you found this project useful
 
 Give it a ⭐ on GitHub!
-
-## 📸 Project Preview
-
-### n8n Workflow
-
-![Workflow](images/workflow.png)
-
-### Google Sheets
-
-![Google Sheets](images/google-sheet.png)
-
-### Generated Email
-
-![Email](images/email.png)

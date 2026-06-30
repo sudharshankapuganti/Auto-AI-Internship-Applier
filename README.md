@@ -64,7 +64,7 @@ README.md
 ![Google Sheets](images/Google Sheets.png)
 
 ### Generated Email
-![Generated Email](images/Google Sheets.png)
+![Generated Email](images/Email.png)
 
 ## ⭐ If you found this project useful
 

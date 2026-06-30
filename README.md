@@ -55,6 +55,19 @@ README.md
 
 ---
 
+## 📸 Project Preview
+
+### n8n Workflow
+![Workflow](images/workflow.png)
+
+### Google Sheets
+![Google Sheets](images/google-sheet.png)
+
+### Generated Email
+![Generated Email](images/email.png)
+
 ## ⭐ If you found this project useful
 
 Give it a ⭐ on GitHub!
+
+

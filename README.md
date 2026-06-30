@@ -66,6 +66,26 @@ README.md
 ### Generated Email
 ![Generated Email](images/Email.png)
 
+
+## ⚙️ How It Works
+
+1. A new row is added to Google Sheets.
+2. The Google Sheets Trigger starts the workflow.
+3. Google Gemini AI generates a personalized internship application email.
+4. A Structured Output Parser formats the AI response.
+5. Gmail automatically sends the email to the recruiter.
+
+
+## 🚀 Setup
+
+1. Import `workflow.json` into n8n.
+2. Connect your Google Sheets account.
+3. Connect your Google Gemini API credentials.
+4. Connect your Gmail account.
+5. Replace the placeholder Google Sheet ID with your own.
+6. Activate the workflow.
+
+
 ## ⭐ If you found this project useful
 
 Give it a ⭐ on GitHub!

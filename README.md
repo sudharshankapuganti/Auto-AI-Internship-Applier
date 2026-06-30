@@ -61,7 +61,7 @@ README.md
 ![Workflow](images/Workflow.png)
 
 ### Google Sheets
-![Google Sheets](images/Google Sheets.png)
+![Google Sheets](images/GoogleSheets.png)
 
 ### Generated Email
 ![Generated Email](images/Email.png)

@@ -1,18 +1,18 @@
-# 🚀 Auto AI Internship Applier
+# Auto AI Internship Applier
 
 An AI-powered automation workflow built with **n8n**, **Google Gemini AI**, **Google Sheets**, and **Gmail** that automatically generates and sends personalized internship application emails.
 
-## ✨ Features
+## Features
 
-- 📄 Detects new rows added to Google Sheets
-- 🤖 Generates personalized internship emails using Google Gemini AI
-- 📧 Sends emails automatically through Gmail
-- ⚡ Fully automated n8n workflow
-- 🎯 No-code / Low-code automation
+- Detects new rows added to Google Sheets
+- Generates personalized internship emails using Google Gemini AI
+- Sends emails automatically through Gmail
+- Fully automated n8n workflow
+- No-code / Low-code automation
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - n8n
 - Google Gemini AI
@@ -22,30 +22,42 @@ An AI-powered automation workflow built with **n8n**, **Google Gemini AI**, **Go
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 Google Sheets
-⬇
+
+↓
+
 Google Sheets Trigger
-⬇
-Gemini AI
-⬇
+
+↓
+
+Google Gemini AI
+
+↓
+
 Structured Output Parser
-⬇
+
+↓
+
 Gmail
 
 ---
 
-## 📂 Repository
+## Repository Structure
 
 ```
 workflow.json
 README.md
+images/
+├── Workflow.png
+├── GoogleSheets.png
+└── Email.png
 ```
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Resume attachment support
 - LinkedIn job search integration
@@ -55,28 +67,33 @@ README.md
 
 ---
 
-## 📸 Project Preview
+## Project Preview
 
 ### n8n Workflow
+
 ![Workflow](images/Workflow.png)
 
 ### Google Sheets
+
 ![Google Sheets](images/GoogleSheets.png)
 
 ### Generated Email
+
 ![Generated Email](images/Email.png)
 
+---
 
-## ⚙️ How It Works
+## How It Works
 
 1. A new row is added to Google Sheets.
 2. The Google Sheets Trigger starts the workflow.
 3. Google Gemini AI generates a personalized internship application email.
-4. A Structured Output Parser formats the AI response.
+4. The Structured Output Parser formats the AI response.
 5. Gmail automatically sends the email to the recruiter.
 
+---
 
-## 🚀 Setup
+## Setup
 
 1. Import `workflow.json` into n8n.
 2. Connect your Google Sheets account.
@@ -85,9 +102,14 @@ README.md
 5. Replace the placeholder Google Sheet ID with your own.
 6. Activate the workflow.
 
+---
 
-## ⭐ If you found this project useful
+## License
 
-Give it a ⭐ on GitHub!
+This project is licensed under the MIT License.
 
+---
 
+## Support
+
+If you found this project useful, consider giving it a star on GitHub.
